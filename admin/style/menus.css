@@ -1,0 +1,211 @@
+/**
+* Nestable Draggable Handles
+*/
+.dd3-content {
+    padding: 12px 20px 11px 54px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.dd-handle {
+    border: none;
+}
+
+.theme-dark .dd3-content {
+    border: 1px solid #48517d;
+    background: #333a59;
+}
+
+.dd3-content:hover {
+    color: #2ea8e5;
+}
+
+.theme-dark .dd3-content:hover {
+    background: #323a60;
+}
+
+.dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+}
+
+    
+.dd3-item {
+    margin: 15px 0;
+}
+.dd3-item > button {
+    margin-left: 30px;
+}
+
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: move;
+    width: 45px;
+    height: 45px;
+    text-indent: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #c9d3e1;
+    border-radius: 5px 0 0 5px;
+}
+
+.dd3-handle:hover {
+    background: #abb8ca;
+}
+
+.theme-dark .dd3-handle {
+    border-color: #48517d;
+    background-color: #464f79;
+}
+
+.theme-dark .dd-empty, .theme-dark .dd-placeholder {
+    border-color: #6987b7;
+    background: #3e4562;
+}
+
+.dd3-handle::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0b2";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.item-edit {
+    float: right;
+    color: #1190bc;
+    cursor: pointer;
+}
+.item-edit:hover {
+    text-decoration: underline;
+}
+
+.item-settings.d-none {
+    display: none!important;
+}
+.item-settings {
+    display: block;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-top: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.theme-dark .item-settings {
+    border-color: #48517d;
+    background: #2c3351;
+}
+.item-settings p {
+    margin-top: 0;
+}
+
+.item-settings p label {
+    color: #666;
+    line-height: 1.5;
+}
+
+.item-settings p label input {
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    border-spacing: 0;
+    width: -webkit-fill-available;
+    clear: both;
+    margin: 0;
+    padding: 5px;
+    border-radius: 0;
+}
+
+.item-settings .item-delete {
+    color: #a00;
+}
+
+.theme-dark .item-settings .item-delete {
+    color: #ff5f5f;
+}
+
+#accordion-container .card {
+  border: 0;
+  box-shadow: none;
+  border: 1px solid #eee;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.theme-dark #accordion-container .card {
+    border-color: #48517d;
+}
+
+.theme-dark .card-header {
+    background-color: #333a59;
+}
+
+.theme-dark #accordion-container .card .card-header .btn-header-link {
+    color: unset;
+}
+
+.theme-dark .card-body {
+    background: #2c3351;
+}
+
+#accordion-container .card-header {
+  padding: 0;
+  border: 0;
+}
+
+#accordion-container .card .card-header .btn-header-link {
+  display: block;
+  text-align: left;
+  color: #222;
+}
+
+#accordion-container .card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+
+#accordion-container .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
+
+#accordion-container .card .collapsing {
+  
+}
+
+#accordion-container .card .collapse {
+  border: 0;
+}
+
+#accordion-container .card .collapse.show {
+  
+}
+
+#accordion-container .card-header .btn {
+    margin: 0;
+    text-transform: none;
+    font-size: 1rem;
+}
+
+#accordion-container .card-header .btn:hover, .card-header .btn:focus, .card-header .btn:active {
+    box-shadow: none;
+}
+
+#form-icons .row img {
+    max-width: 70px;
+}

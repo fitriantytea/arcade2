@@ -1,0 +1,11 @@
+{
+	"name": "Default",
+	"version": "1.1.7",
+	"author": "CloudArcade",
+	"description": "Default Theme",
+	"website": "https://cloudarcade.net",
+	"release_date": "30/08/2023",
+	"changelog": "Implement load more games, implement new comment system, better search, fix bugs.",
+	"type":"theme",
+	"target_version": "1.6.5"
+}
